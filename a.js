@@ -1,2 +1,7 @@
-const numbers = [1,2,3,4]
-console.log(numbers)
+import {uniq} from 'lodash'
+
+const numbers = [4, 9, 1, 3, 9,9];
+console.log(numbers);
+const uniqNumbers = uniq(numbers)
+console.log(uniqNumbers);
+
