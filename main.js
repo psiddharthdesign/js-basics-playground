@@ -1,3 +1,4 @@
 import './style.css'
-import './a';
+import {number} from './a';
 
+console.log('number printed in main', number);
